@@ -1,37 +1,50 @@
 # ICAI AI Use Cases Dashboard
 
-**Interactive visualisation of AI applications in accounting, auditing, and finance for ICAI members.**
+> AI is reshaping every profession. This dashboard shows what it means for Chartered Accountants.
 
-A single-page HTML dashboard cataloguing and visualising real-world AI use cases relevant to Chartered Accountants — covering audit automation, fraud detection, tax technology, financial analysis, and more.
+An interactive single-page dashboard cataloguing real-world AI applications across the CA profession — built for ICAI CPE sessions, BFSI forums, and professional development presentations.
 
 ---
 
 ## What's Inside
 
-- Curated dataset of AI use cases specific to the CA profession (`icai_usecases_public.csv`)
-- Interactive filtering by domain, complexity, and implementation stage
-- Visual summaries and category breakdowns
-- Designed for ICAI forums, CPE sessions, and professional presentations
+A curated, structured dataset (`icai_usecases_public.csv`) of AI applications mapped to CA practice areas, with an interactive HTML interface for filtering, exploring, and presenting.
 
----
+### Coverage Areas
+
+| Practice Domain | AI Applications Catalogued |
+|-----------------|---------------------------|
+| Statutory Audit | Risk-based sampling, anomaly detection, audit trail analysis |
+| Fraud Investigation | Pattern recognition, transaction monitoring, network analysis |
+| Tax & Compliance | Document processing, regulatory change tracking, e-filing automation |
+| Financial Reporting | XBRL tagging, disclosure analysis, restatement detection |
+| Advisory Services | Valuation models, scenario analysis, client risk profiling |
+| AML/KYC | Entity resolution, beneficial ownership mapping, SAR generation |
+
+### Dashboard Features
+
+- Filter by domain, complexity level, and implementation readiness
+- Complexity rating (Emerging → Deployed → Mature)
+- Implementation effort estimates
+- Tool/vendor examples for each use case
+- Export-ready for presentations
 
 ## Usage
 
-Open `index.html` directly in any browser — no server or dependencies required.
+No installation. No server. Just open `index.html` in any browser.
+
+```bash
+git clone https://github.com/rishabhinai-netizen/icai-ai-dashboard
+# Open index.html in your browser
+```
+
+## Designed For
+
+- **ICAI CPE sessions** — Ready-to-use presentation material
+- **BFSI fraud forums** — AI in fraud detection showcase
+- **CA firms** — Technology capability assessment baseline
+- **Individual practitioners** — Understanding where AI fits in your practice
 
 ---
 
-## Data
-
-`icai_usecases_public.csv` contains structured data on AI applications across:
-- Statutory Audit
-- Tax and Compliance
-- Fraud Investigation
-- Financial Reporting
-- Advisory Services
-
----
-
-## Built By
-
-Rishabh Inai — Chartered Accountant, Lead Investigator at ICHFL, and BFSI fraud forum presenter.
+*Data compiled by a CA and CFE tracking AI's practical impact on the profession. Updated as use cases mature.*
